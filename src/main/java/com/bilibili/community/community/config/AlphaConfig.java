@@ -8,6 +8,7 @@ import java.text.SimpleDateFormat;
 @Configuration
 public class AlphaConfig {
 
+    //管理第三方bean
     @Bean
     public SimpleDateFormat simpleDateFormat(){
         return new SimpleDateFormat("yyyy-MM-dd HH:mm:SS");
